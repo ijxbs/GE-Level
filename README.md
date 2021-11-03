@@ -1,13 +1,16 @@
 ReadMe
-Development team:
-Leo Buono – 100748457
 Jaden Bhakti – 100696653
-Jonathan Leung – 100746577
+
+
 Game description:
 Players are given the ability to utilize a fully functioning level editor. There are a number of helpful UI elements which allow you to switch camera modes between editor and gameplay, switch between platform types, count the number of times the character jumped, time the playthrough, etc. A couple other added functionality:
 Checkpoints  
 Ending platforms which will reset the timer  
 WASD and Space player movement   
+
+***ASSIGNMENT 3 CHANGES*
+- Dirty flag has been implemented to check which actions are being performed by the user in the level editor. Checks only on user command to save CPU memory. Everytime the user makes a change in the editor, then presses ctrl + f, followed by refreshing the assets folder, a .txt file will be printed displaying the changes which have been made. This will reset on runtime - saving memory and optimizing the level editor.
+
 Screenshots:  
  
  
@@ -35,3 +38,4 @@ https://www.patrykgalach.com/2019/03/28/implementing-factory-design-pattern-in-u
 https://answers.unity.com/questions/366157/mouse-click-to-world-space.html
 Modified laboratory 5 scripts were used to make the command pattern functions.     
 Followed laboratory 4 steps in making the dll and plugin.
+Followed laboratory 7 for optimization patterns
